@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Time Table Today</title>
+    
+</head>
+
+
+<body>
+
+    <h1 id="h10000" style="text-align: center; font-size: 35px;" >Time Table</h1>
+ <div id="displaydate">
+
+ </div>
+
+ <div id="tim">
+    <input type="time" id="time">
+</div>
+
+    <textarea name="text000" id="t-area" cols="70" rows="10"></textarea>
+
+
+    <div style="display: block; margin:auto; text-align: center;">
+
+    <button id="btn001" onclick="clearlist()">Clear All</button>
+    <button id="btn00" onclick="addtimetable()">Add</button>
+     </div>
+     
+
+
+
+
+
+
+    <table id="schedule-list" style="margin: auto; width: 90%; margin-top: 25px; margin-bottom: 100px;" >
+        <thead> <tr>
+            <th >Task</th>
+            <th>Time</th>
+            <th>Action</th>
+        </tr></thead>
+       <tbody></tbody>
+    </table>
+
+
+
+
+
+<script src="event.js"></script>
+     
+</body>
+</html>
